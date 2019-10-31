@@ -13,8 +13,8 @@ Ruby scripts do not need to be compiled in advance.
 The scripts (.rb) files can be executed locally using the `ruby` command or moved to a location within your $PATH. If in your path, simply invoke the script omitting the `ruby`.    
 
 ### admixture_dK.rb  
-This script calculate Evanno et al.'s deltaK statistic for ADMIXTURE results. Input is a directory of ADMIXTURE log files and output are the deltaK results calculated as in CorrSieve (v. <= 1.7.0). Execution is:  
-`ruby admixture_dK.rb <ADMIXTURE logs directory> > <deltaK results>
+This script calculate Evanno et al.'s deltaK statistic for ADMIXTURE results. Input is a directory of ADMIXTURE log files and output are the deltaK results calculated as in CorrSieve (v. <= 1.7.0) in tab-separated values (TSV) format. Execution is:  
+`ruby admixture_dK.rb <ADMIXTURE logs directory> > <deltaK results.tsv>`  
 
 ### convert_qmatrix.rb
 This script converts a directory of ADMIXTURE population assignment files (.Q) into CorrSieve-readable (v. <= 1.7.0) input for Q-matrix correlations. Execution is:  
