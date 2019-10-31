@@ -4,7 +4,7 @@ CorrSieve helper scripts to calculate deltaK and perform Q-matrix correlations f
 ## Michael G. Campana, 2019  
 
 ## Installation  
-Ruby scripts do not need to be compiled in advance.  
+Ruby scripts do not need to be compiled in advance. Simply clone the scripts, make them executable, and move them to a desired execution location.  
 `git clone https://github.com/campanam/ADMIXTURE-stats`  
 `chmod +x ADMIXTURE-stats/*.rb`  
 `mv *.rb <destination>`  
@@ -20,3 +20,7 @@ This script calculate Evanno et al.'s deltaK statistic for ADMIXTURE results. In
 This script converts a directory of ADMIXTURE population assignment files (.Q) into CorrSieve-readable (v. <= 1.7.0) input for Q-matrix correlations. Execution is:  
 `ruby convert_qmatrix.rb <ADMIXTURE .Q directory> <Output directory>`  
 Output files can then be used by CorrSieve for Q-matrix correlations, but will fail for other analyses.  
+
+## Citations
+Campana, M.G. 2019. ADMIXTURE-stats. https://github.com/campanam/ADMIXTURE-stats.  
+Campana, M.G. et al. 2011. CorrSieve: software for summarizing and evaluating Structure output. Mol. Ecol. Resour. 11:349-352. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-0998.2010.02917.x  
