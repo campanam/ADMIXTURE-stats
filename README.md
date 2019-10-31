@@ -29,5 +29,5 @@ Campana, M.G. 2019. ADMIXTURE-stats. https://github.com/campanam/ADMIXTURE-stats
 Campana, M.G. et al. 2011. *CorrSieve*: software for summarizing and evaluating Structure output. Mol. Ecol. Resour. 11:349-352. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-0998.2010.02917.x  
 
 ## References
-Evanno et al. 2005. Detecting the number of clusters of individuals using the software <span style="font-variant:small-caps;">structure</span>: a simulation study. Mol. Ecol. 14: 2611-2620. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-294X.2005.02553.x.
+Evanno et al. 2005. Detecting the number of clusters of individuals using the software STRUCTURE: a simulation study. Mol. Ecol. 14: 2611-2620. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-294X.2005.02553.x.
 Alexandre et al. 2009. Fast model-based estimation of ancestry in unrelated individuals. Genome Res. 19: 1655-1664. https://genome.cshlp.org/content/19/9/1655
