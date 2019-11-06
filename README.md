@@ -16,7 +16,7 @@ Ruby scripts do not need to be compiled in advance. Simply clone the scripts, ma
 The scripts (.rb) files can be executed locally using the `ruby` command or moved to a location within your $PATH. If in your path, simply invoke the script omitting the `ruby` command.    
 
 ### admixture_dK.rb  
-This script calculates Evanno et al.'s Δ*K* statistic for ADMIXTURE results. Input is a directory of ADMIXTURE log files and output are the deltaK results calculated as in CorrSieve (v. <= 1.7.0) in tab-separated values (TSV) format. Execution is:  
+This script calculates Evanno et al.'s Δ*K* statistic for ADMIXTURE results. Input is a directory of ADMIXTURE log files and output are the Δ*K* results calculated as in CorrSieve (v. <= 1.7.0) in tab-separated values (TSV) format. Execution is:  
 `ruby admixture_dK.rb <ADMIXTURE logs directory> > <deltaK results.tsv>`  
 
 ### convert_qmatrix.rb
