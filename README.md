@@ -24,7 +24,7 @@ This script converts a directory of ADMIXTURE population assignment files (.Q) i
 `ruby convert_qmatrix.rb <ADMIXTURE .Q directory> <Output directory>`  
 Output files can then be used by CorrSieve for Q-matrix correlations, but will fail for other analyses.  
 
-## Citations
+## Citing these Scripts
 Campana, M.G. 2019. ADMIXTURE-stats. https://github.com/campanam/ADMIXTURE-stats.  
 
 Campana, M.G. et al. 2011. *CorrSieve*: software for summarizing and evaluating Structure output. Mol. Ecol. Resour. 11:349-352. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-0998.2010.02917.x  
