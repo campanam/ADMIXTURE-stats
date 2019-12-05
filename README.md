@@ -6,6 +6,9 @@ Contact: campanam@si.edu
 
 *CorrSieve* helper scripts to calculate Δ*K* and perform *Q*-matrix correlations from [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) output  
 
+## License  
+The software is made available under the Smithsonian Institution [terms of use](https://www.si.edu/termsofuse).  
+
 ## Installation  
 Ruby scripts do not need to be compiled in advance. Simply clone the scripts, make them executable, and move them to a desired execution location.  
 `git clone https://github.com/campanam/ADMIXTURE-stats`  
