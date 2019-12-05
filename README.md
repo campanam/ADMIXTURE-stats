@@ -16,11 +16,11 @@ Ruby scripts do not need to be compiled in advance. Simply clone the scripts, ma
 The scripts (.rb) files can be executed locally using the `ruby` command or moved to a location within your $PATH. If in your path, simply invoke the script omitting the `ruby` command.    
 
 ### admixture_dK.rb  
-This script calculates Evanno et al.'s Δ*K* statistic for ADMIXTURE results. Input is a directory of ADMIXTURE log files and output are the Δ*K* results calculated as in *CorrSieve* (v. <= 1.7.0) in tab-separated values (TSV) format. Execution is:  
+This script calculates Evanno et al.'s Δ*K* statistic for ADMIXTURE results. Input is a directory of ADMIXTURE log files and output are the Δ*K* results calculated as in *CorrSieve* (versions <= 1.7-0) in tab-separated values (TSV) format. Execution is:  
 `ruby admixture_dK.rb <ADMIXTURE logs directory> > <deltaK results.tsv>`  
 
 ### convert_qmatrix.rb
-This script converts a directory of ADMIXTURE population assignment files (.Q) into Ruby *CorrSieve*-readable (v. <= 1.7.0) input for *Q*-matrix correlations. *WARNING: Converted files are not compatible with the* CorrSieve *R version*. Execution is:  
+This script converts a directory of ADMIXTURE population assignment files (.Q) into Ruby *CorrSieve*-readable (versions <= 1.7-0) input for *Q*-matrix correlations. *WARNING: Converted files are not compatible with the* CorrSieve *R version*. Execution is:  
 `ruby convert_qmatrix.rb <ADMIXTURE .Q directory> <Output directory>`  
 Output files can then be used by *CorrSieve* for *Q*-matrix correlations, but will fail for other analyses.  
 
