@@ -4,7 +4,7 @@ Michael G. Campana, 2019
 Smithsonian Conservation Biology Institute  
 Contact: campanam@si.edu  
 
-CorrSieve helper scripts to calculate Δ*K* and perform Q-matrix correlations from [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) output  
+CorrSieve helper scripts to calculate Δ*K* and perform *Q*-matrix correlations from [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) output  
 
 ## Installation  
 Ruby scripts do not need to be compiled in advance. Simply clone the scripts, make them executable, and move them to a desired execution location.  
@@ -20,9 +20,9 @@ This script calculates Evanno et al.'s Δ*K* statistic for ADMIXTURE results. In
 `ruby admixture_dK.rb <ADMIXTURE logs directory> > <deltaK results.tsv>`  
 
 ### convert_qmatrix.rb
-This script converts a directory of ADMIXTURE population assignment files (.Q) into CorrSieve-readable (v. <= 1.7.0) input for Q-matrix correlations. Execution is:  
+This script converts a directory of ADMIXTURE population assignment files (.Q) into CorrSieve-readable (v. <= 1.7.0) input for *Q*-matrix correlations. Execution is:  
 `ruby convert_qmatrix.rb <ADMIXTURE .Q directory> <Output directory>`  
-Output files can then be used by CorrSieve for Q-matrix correlations, but will fail for other analyses.  
+Output files can then be used by CorrSieve for *Q*-matrix correlations, but will fail for other analyses.  
 
 ## ADMIXTURE-stats Citations  
 Campana, M.G. 2019. ADMIXTURE-stats. https://github.com/campanam/ADMIXTURE-stats.  
