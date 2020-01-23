@@ -2,7 +2,6 @@
 
 Michael G. Campana, 2019  
 Smithsonian Conservation Biology Institute  
-Contact: campanam@si.edu  
 
 *CorrSieve* helper scripts to calculate Δ*K* and perform *Q*-matrix correlations from [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) output  
 
