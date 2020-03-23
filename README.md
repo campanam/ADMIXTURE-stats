@@ -22,9 +22,9 @@ This script calculates Evanno et al.'s Δ*K* statistic for ADMIXTURE results. In
 `ruby admixture_dK.rb <ADMIXTURE logs directory> > <deltaK results.tsv>`  
 
 ### convert_qmatrix.rb
-This script converts a directory of ADMIXTURE population assignment files (.Q) into Ruby *CorrSieve*-readable (versions <= 1.7-0) input for *Q*-matrix correlations. *WARNING: Converted files are not compatible with the* CorrSieve *R version*. Execution is:  
+This script converts a directory of ADMIXTURE population assignment files (.Q) into *rubyCorrSieve*-readable (versions <= 1.7-0) input for *Q*-matrix correlations. *WARNING: Converted files are not compatible with* rCorrSieve. Execution is:  
 `ruby convert_qmatrix.rb <ADMIXTURE .Q directory> <Output directory>`  
-Output files can then be used by *CorrSieve* for *Q*-matrix correlations, but will fail for other analyses.  
+Output files can then be used by *rubyCorrSieve* for *Q*-matrix correlations, but will fail for other analyses.  
 
 ## ADMIXTURE-stats Citations  
 Campana, M.G. 2019. ADMIXTURE-stats. https://github.com/campanam/ADMIXTURE-stats.  
